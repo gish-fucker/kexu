@@ -7,9 +7,9 @@
 桌面 Chrome 和 Edge 使用同一个安装包。首次正式发布前，内测同学可直接使用收到的 `kexu-0.3.10-chrome.zip`，从下面第 2 步开始。
 
 <a name="下载与安装"></a>
-##
+
 <details>
-<summary><strong>👉 下载与安装</strong></summary>
+<summary><h2>👉 下载与安装</h2></summary>
 
 1. **下载安装包。** 打开上方下载入口，进入标有 **Latest** 的版本。在 **Assets（附件）** 中点文件名以 `kexu-` 开头、以 `-chrome.zip` 结尾的文件。`Source code` 是项目源码，安装课序请选择前者。
    <!-- 截图 01：docs/images/01-download.png，标出 Latest 和安装包附件。 -->
