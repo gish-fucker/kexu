@@ -1,0 +1,22 @@
+node_modules/
+.wxt/
+.output/
+.playwright/
+.playwright-cli/
+output/
+*.log
+
+# 本机配置、凭据、浏览器测试产物
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crx
+*.zip
+coverage/
+test-results/
+playwright-report/
+.DS_Store
+Thumbs.db
+/tasks/

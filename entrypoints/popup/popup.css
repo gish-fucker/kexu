@@ -1,0 +1,14 @@
+body {
+  box-sizing: border-box;
+  width: 265px;
+  margin: 0;
+  padding: 16px;
+  background: #f9fbfa;
+  color: #142323;
+  font: 13px/1.55 system-ui, 'Microsoft YaHei UI', sans-serif;
+}
+
+header { display: flex; align-items: center; gap: 8px; }
+h1 { margin: 0; font-size: 17px; }
+p { margin: 9px 0 0; }
+.hint { color: #475d59; }

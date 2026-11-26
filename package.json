@@ -1,0 +1,27 @@
+{
+  "name": "course-queue",
+  "version": "0.3.10",
+  "private": true,
+  "type": "module",
+  "description": "课序 · 在学习通网页接续视频、教材和下一小节。",
+  "license": "MIT",
+  "engines": {
+    "node": "^22.22.2 || ^24.15.0 || >=26"
+  },
+  "scripts": {
+    "postinstall": "wxt prepare",
+    "dev": "wxt",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "build:demo": "wxt build --mode demo",
+    "demo": "node fixtures/server.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "31.0.1",
+    "typescript": "5.9.3",
+    "vitest": "5.1.1",
+    "wxt": "0.21.5"
+  }
+}
