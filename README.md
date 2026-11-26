@@ -1,10 +1,8 @@
 # 课序
 
-在电脑上用学习通看课时，课序可以接着播放本节视频，逐份滚动教材和 PPT，再打开同一门课里下一个已开放的小节。你可以随时暂停。
+在电脑上用学习通看课时，课序可以接着播放本节视频，逐份滚动教材和 PPT，再打开同一门课里下一个已开放的小节。
 
 **[下载最新版 ZIP · GitHub Releases](https://github.com/gish-fucker/kexu/releases)**
-
-桌面 Chrome 和 Edge 使用同一个安装包。首次正式发布前，内测同学可直接使用收到的 `kexu-0.3.10-chrome.zip`，从下面第 2 步开始。
 
 <a name="下载与安装"></a>
 
@@ -53,20 +51,6 @@
 
 ## 问题反馈
 
-请写清**课序版本、浏览器及版本、任务类型、操作步骤、预期结果和面板原文**。如果问题只在后台出现，请写明切走了多久、切回来看到什么。截图请遮住姓名、学号、学校、班级和地址栏参数。无需提供账号、Cookie 或完整课程链接。[提交 GitHub Issue](https://github.com/gish-fucker/kexu/issues/new)
+[提交 GitHub Issue](https://github.com/gish-fucker/kexu/issues/new)
 
-<details>
-<summary>开发与兼容性记录</summary>
 
-本项目使用 WXT、TypeScript 和 Manifest V3。使用 Node.js 24.15 或更新的 24.x 版本，在项目根目录依次运行：
-
-```sh
-npm ci
-npm run typecheck
-npm test
-npm run zip
-```
-
-可加载的目录为 `.output/chrome-mv3`，安装包在 `.output/`。调试自制课程时运行 `npm run build:demo` 和 `npm run demo`，加载 `.output/chrome-mv3-demo`，在浏览器打开 `http://localhost:4173`。[兼容性及历史测试记录](docs/compatibility.md)
-
-</details>
