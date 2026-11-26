@@ -9,7 +9,7 @@
 <a name="下载与安装"></a>
 
 <details>
-<summary><strong>👉 下载与安装</strong></summary>
+##<summary><strong>👉 下载与安装</strong></summary>
 
 1. **下载安装包。** 打开上方下载入口，进入标有 **Latest** 的版本。在 **Assets（附件）** 中点文件名以 `kexu-` 开头、以 `-chrome.zip` 结尾的文件。`Source code` 是项目源码，安装课序请选择前者。
    <!-- 截图 01：docs/images/01-download.png，标出 Latest 和安装包附件。 -->
